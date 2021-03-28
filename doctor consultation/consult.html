@@ -14,6 +14,22 @@
     </head>
     <body>
     </body>
+    <nav>
+        <a href="https://vaibhavgupta05.github.io/Healthy-Me/" style="text-decoration: none; color: white;">
+        <div id="brand">
+            <img src="/images/logo.png" id= "logo" alt="Healthy Me" title="Healthy Me" style = "margin-left:30px;">
+            <span style = "margin-left:10px;">Healthy Me!</span>
+        </div>
+        </a>
+        <div id="nav-links">
+            <ul id="links">
+                <a href="https://vaibhavgupta05.github.io/Healthy-Me/" style="text-decoration: none;"><li>Home</li></a>
+                <a href="#menu" style="text-decoration: none;"><li>Services</li></a>
+                <a href="#about" style="text-decoration: none;"><li>About Us</li></a>
+                <a href="#contact" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
     <div class="warpper fl">
         <div class="main">
             <div class="head">
@@ -23,32 +39,31 @@ Doctor Consultation Form</p>
 <div class="form fl">
                 <form method="POST">
                     <p class="name">
-FIRST NAME* :</p>
+First Name<span class="s">*</span></p>
 <p>
 <input type="text" name="fname" placeholder="First Name" class="name-inp"></p>
 <p class="name">
-LAST NAME* :</p>
+Last Name<span class="s">*</span></p>
 <p>
 <input type="text" name="lname" placeholder="Last Name" class="name-inp"></P>
                     <p class="name">
-EMAIL* :</p>
+E mail ID<span class="s">*</span></p>
 <p>
 <input type="email" name="uid" placeholder="Email" class="name-inp"></p>
 <p class="name">
-PHONE* :</P>
+Phone<span class="s">*</span></P>
                     <p>
 <input type="text" name="phone" placeholder="Phone" class="name-inp"></p>
 <p class="name">
-PASSWORD* :</p>
-<p>
-<input type="password" name="pass" placeholder="Password" class="pass">
-                        <input type="password" name="pass" placeholder="Confirm Password" class="pass">
-                    </p>
+    Problems<span class="s">*</span></P>
+                        <p>
+    <textarea id="message" rows="3" placeholder="Describe your problems"></textarea>
+    
 <p class="gender">
-<span class="gen">Gender</span>
-                        <input type="checkbox" name="ge" class="genm">Male
-                        <input type="checkbox" name="ge" class="genm">Female
-                    </p>
+<span class="gen">Gender :</span>
+    <input type="checkbox" name="ge" class="genm">Male
+    <input type="checkbox" name="ge" class="genm">Female
+</p>
 <p>
 <input type="submit" name="sb" value="SUBMIT" class="sub"></p>
 </form>
