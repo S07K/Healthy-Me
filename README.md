@@ -1,5 +1,5 @@
 # Healthy-Me
-# Description
+## Description
 > _This is a project undertaken for a student-run virtual event (**HACK THE SOLUTION**) consisting of a 36-hour hackathon with mentorship from experts and fun challenges._
 
 
