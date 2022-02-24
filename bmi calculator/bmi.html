@@ -13,7 +13,42 @@
         <link rel="stylesheet" href="bmi.css">
     </head>
     <body>
-        <h1 style="text-align: center;">BMI calculator</h1>
+        <nav>
+            <a href="https://vaibhavgupta05.github.io/Healthy-Me/">
+            <div id="brand">
+                <img src="images/logo.png" id= "logo" alt="Healthy Me" title="Healthy Me" style = "margin-left:30px;">
+                <span style = "margin-left:10px;">Healthy Me!</span>
+            </div>
+            </a>
+            <div id="nav-links">
+                <ul id="links">
+                    <a href="https://vaibhavgupta05.github.io/Healthy-Me/" style="text-decoration: none;"><li>Home</li></a>
+                    <a href="#menu" style="text-decoration: none;"><li>Services</li></a>
+                    <a href="#about" style="text-decoration: none;"><li>About Us</li></a>
+                    <a href="#contact" style="text-decoration: none;"><li>Contact Us</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="bmi">
+			<h2>BMI Calculator</h2>
+			<p class="text">Height</p>
+			<input type="text" id="h">
+			<p class="text">Weight</p>
+			<input type="text" id="w">
+			<p id="result"></p>
+			<button id="btn" onClick="BMI()">Calculate</button>
+			<p id="info">Please enter height [cm] and weight [kg]</p>
+		</div>
+        <script type="text/javascript">
+            function BMI() {
+                var h=document.getElementById('h').value;
+                var w=document.getElementById('w').value;
+                var bmi=w/(h/100*h/100);
+                var bmio=(bmi.toFixed(2));
+    
+                document.getElementById("result").innerHTML="Your BMI is " + bmio;
+            }
+        </script>
         
     </body>
 </html>
