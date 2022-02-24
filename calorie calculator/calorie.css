@@ -1,0 +1,68 @@
+
+ul, nav, body, h1, h2, h4, h6, p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+a, button { transition: all 0.3s ease; }
+
+/* Bootstrap grid system  */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+
+nav
+{
+    width: 100vw;
+    height: auto ;
+    position: fixed;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+#brand
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+#brand:hover
+{
+    cursor:pointer;
+    transform: translateY(-5px);
+    transition: 0.7s ease;
+}
+#logo
+{
+    width:70px;
+    height:70px;
+    transform: scale(1)
+}
+#links
+{
+    list-style-type: none;
+    display: flex;
+    margin:5px 40px 5px 40px; 
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+#links li
+{
+    color:white;
+    padding: 5px;
+}
+#links li:hover
+{
+    color:wheat;
+    cursor:pointer;
+}
